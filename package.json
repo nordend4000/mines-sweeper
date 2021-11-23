@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "Minesweeper.js",
 	"scripts": {
-		"build": "parcel build index.html",
+		"build": "npx -p parcel build index.html ",
 		"start": "parcel index.html",
 		"test": "jest --coverage",
 		"cy:open": "cypress open",
@@ -16,9 +16,10 @@
 	"devDependencies": {
 		"@babel/core": "^7.14.3",
 		"@babel/preset-env": "^7.14.4",
-		"jest": "^27.0.4",
-		"parcel": "^2.0.0-beta.3.1",
 		"cypress": "7.5.0",
+		"jest": "^27.0.4",
+		"parcel": "^2.0.1",
+		"parcel-bundler": "^1.12.5",
 		"start-server-and-test": "^1.12.3"
 	},
 	"dependencies": {

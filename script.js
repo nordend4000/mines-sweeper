@@ -9,7 +9,7 @@ import {
 	checkLose,
 	positionMatch,
 	markedTilesCount,
-} from "./minesweeper.js"
+} from "./Minesweeper.js"
 
 // AVOIDING BOARD RANDOMNESS FOR TESTING
 // OVERWRITE BOARD FOR TESTING WHILE IN DEV MODE
