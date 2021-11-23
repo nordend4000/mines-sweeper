@@ -1,0 +1,27 @@
+{
+	"name": "minesweeper",
+	"version": "1.0.0",
+	"description": "",
+	"main": "Minesweeper.js",
+	"scripts": {
+		"build": "parcel build index.html",
+		"start": "parcel index.html",
+		"test": "jest --coverage",
+		"cy:open": "cypress open",
+		"test:e2e": "start-server-and-test start http://localhost:1234 cy:open"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.14.3",
+		"@babel/preset-env": "^7.14.4",
+		"jest": "^27.0.4",
+		"parcel": "^2.0.0-beta.3.1",
+		"cypress": "7.5.0",
+		"start-server-and-test": "^1.12.3"
+	},
+	"dependencies": {
+		"lodash": "^4.17.21"
+	}
+}
